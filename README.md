@@ -7,10 +7,10 @@ publicado por Guillermo Solovey, Fernando Peruani, Silvina Ponce Dawson, Rita Ma
 ## Funcionamiento
 Una matriz de 700x700 pixeles como tamaño predeterminado simula el sistema inmune de la persona.
 Cada pixel representa una celula del sistema inmune, la cual puede estar en 4 estados posibles:
-- Sana
-- Infectada tipo A (Infecta más facilmente celulas sanas vecinas)
-- Infectada tipo B (Dificilmente infecta celulas sanas vecinas)
-- Muerta
+- Sana: Color azul
+- Infectada tipo A (Infecta más facilmente celulas sanas vecinas): Color amarillo
+- Infectada tipo B (Dificilmente infecta celulas sanas vecinas): Color verde
+- Muerta: Color rojo
 
 La matriz tiene un porcentaje de celulas infectadas aleatoriamente.
 ## Demostración
